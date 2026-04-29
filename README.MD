@@ -1,6 +1,7 @@
 # Bad Apple Animated Favicon
 
 This project plays `bad_apple.mp4` inside the browser tab icon by turning each video frame into a tiny black-and-white favicon.
+![Bad Apple favicon demo](demo.gif)
 
 ## What Is In This Project
 
