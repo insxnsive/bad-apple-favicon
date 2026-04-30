@@ -1,13 +1,16 @@
 # Bad Apple Animated Favicon
 
 This project plays `bad_apple.mp4` inside the browser tab icon by turning each video frame into a tiny black-and-white favicon.
+
 ![Bad Apple favicon demo](demo.gif)
 
 ## What Is In This Project
 
 - `index.html` loads the page, the hidden video, and the favicon script.
 - `favicon.js` reads the video frame-by-frame and updates the favicon.
-- `bad_apple.mp4` is the source video.
+
+## Disclaimer
+I removed the video .mp4 because I don't want to get DMCA'd. If you want to test this out yourself, make sure you have the video at the root of the code. More explanation further below.
 
 ## Simple Explanation
 
@@ -29,6 +32,8 @@ Do **not** double-click `index.html` and open it directly in the browser with a 
 
 ### Easiest Method: Node.js + `serve`
 
+0. Gently ask Touhou for the `.mp4` of the Bad Apple video and add it to root. (Right with all the other files) 
+   - Rename it to `"bad_apple.mp4"`.
 1. Install Node.js from [nodejs.org](https://nodejs.org/).
 2. Open a terminal in this project folder:
    - `C:\Users\insxn\Desktop\bad-apple-favicon`
